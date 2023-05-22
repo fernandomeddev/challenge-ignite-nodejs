@@ -1,0 +1,19 @@
+{
+  "name": "challenge-node-01",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "node --watch src/services/importFromCsv.js",
+    "dev": "node --watch src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-generate": "^4.2.6",
+    "csv-parse": "^5.3.10",
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.3.1"
+  }
+}
